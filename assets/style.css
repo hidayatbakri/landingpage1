@@ -1,0 +1,193 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100;300;400;500;600;700;800;900&display=swap');
+
+.font-georgia {
+  font-family: Georgia, 'Times New Roman', Times, serif !important;
+}
+
+.font-inter {
+  font-family: 'Inter', sans-serif !important;
+}
+
+.background-gray {
+  background-color: #F0F4F9;
+}
+
+.background-darkblue {
+  background-color: #002147;
+}
+
+.color-darkblue {
+  color: #002147 !important;
+}
+
+.menu-list .ul-menu .list-menu {
+  padding: 0 10px;
+  font-size: 16px;
+  font-weight: 600;
+}
+
+section.header {
+  height: 85vh;
+}
+
+button.my-btn {
+  width: 181px;
+  font-size: 21px;
+}
+
+.timer {
+  width: 88%;
+  bottom: -95px;
+  height: 208px;
+}
+
+.timer img {
+  width: 170px;
+  height: 150px;
+}
+
+section.course {
+  margin-top: 150px;
+}
+
+.course .card {
+  width: 340px;
+  margin: 15px;
+}
+
+.card .avatar {
+  bottom: -35px;
+  left: 23px;
+}
+
+section.feedback {
+  margin-top: 230px;
+}
+
+div.instagram-post {
+  width: 120px;
+  height: 120px;
+  top: -50px;
+  left: -50px;
+}
+
+img.img-feed {
+  width: 541px !important;
+}
+
+div.instagram-post img {
+  width: 80%;
+  padding: 10px;
+}
+
+div.info-feedback {
+  bottom: -30px;
+  height: 70px;
+}
+
+.design-principle {
+  left: -50px;
+  top: 8px;
+}
+
+.info-feed {
+  height: 97px;
+}
+
+section.data {
+  margin-top: 120px;
+  position: relative;
+  padding: 130px 0;
+}
+
+section.data::before {
+  content: '';
+  position: absolute;
+  background-image: url('img/map.png');
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: 50%;
+  top: 10px;
+  background-position: center;
+}
+
+section.subscribe {
+  margin-top: 90px;
+}
+
+footer {
+  margin-top: 150px;
+}
+
+@media (max-width: 768px) {
+  section.header {
+    height: 110vh;
+  }
+
+  .timer {
+    width: 90%;
+    bottom: -325px;
+    height: 298px;
+  }
+
+  button.my-btn {
+    width: 181px;
+    font-size: 21px;
+    margin-top: 10px;
+    margin-left: 20px;
+  }
+
+  div.instagram-post {
+    width: 50px;
+    height: 50px;
+    top: -20px;
+    left: -20px;
+  }
+
+  .design-principle {
+    top: 30px;
+  }
+
+}
+
+@media (max-width: 1280px) {
+  .right-feed {
+    margin-top: 100px;
+  }
+}
+
+@media (max-width: 1024px) {
+
+  section.header {
+    height: 110vh;
+  }
+
+  .timer {
+    width: 90%;
+    bottom: -325px;
+    height: 308px !important;
+  }
+
+  section.course {
+    margin: 350px 10px;
+  }
+
+  div.instagram-post {
+    width: 80px;
+    height: 80px;
+    top: -20px;
+    left: -20px;
+  }
+
+  .info-feed {
+    height: 142px;
+  }
+
+
+
+}
