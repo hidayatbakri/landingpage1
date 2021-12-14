@@ -547,7 +547,15 @@ footer {
 
 @media (max-width: 768px) {
   section.header {
-    height: 110vh;
+    height: 130vh;
+  }
+
+  section.header .text-header {
+    padding-top: 80px;
+  }
+
+  section.header .analytic img {
+    width: 80% !important;
   }
 
   .timer {
